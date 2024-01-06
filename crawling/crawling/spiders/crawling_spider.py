@@ -11,3 +11,5 @@ class CrawlingSpider(CrawlSpider):
         Rule(LinkExtractor(allow="catalogue/category")),
         Rule(LinkExtractor(allow="catalogue", deny="category"), callback="parse_item")
     )
+
+    def parse_item(selfself, response):
