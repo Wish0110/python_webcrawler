@@ -13,8 +13,8 @@ class CrawlingSpider(CrawlSpider):
     )
 
     def parse_item(selfself, response):
-            yield {
-                "title": response.css(".product_main h1::text").get(),
-                "price": response.css(".price_color::text").get(),
-                "availability": response.css(".availability::text")[2].get()
-            }
+        yield {
+            "title": response.css(".product_main h1::text").get(),
+            "price": response.css(".price_color::text").get(),
+            "availability": response.css(".availability::text")[1].get().replace("\n", "").replace(" ","")
+        }
