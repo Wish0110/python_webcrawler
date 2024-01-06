@@ -13,8 +13,8 @@ class CrawlingSpider(CrawlSpider):
     )
 
     def parse_item(selfself, response):
-        yield  {
             yield {
-                "title": response.css(".product_main h1::text").get()
+                "title": response.css(".product_main h1::text").get(),
+                "price": response.css(".price_color::text").get(),
+
             }
-        }
