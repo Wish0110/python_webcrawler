@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b0c84-6cc6-4163-b4fd-eb31845c8b6b" name="Changes" comment="catalogue and category">
+    <list default="true" id="da3b0c84-6cc6-4163-b4fd-eb31845c8b6b" name="Changes" comment="get response">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawling/crawling/spiders/crawling_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling/crawling/spiders/crawling_spider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704474512551</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="get response">
+      <option name="closed" value="true" />
+      <created>1704475563102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704475563102</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +144,7 @@
     <MESSAGE value="create class" />
     <MESSAGE value="domain add" />
     <MESSAGE value="catalogue and category" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue and category" />
+    <MESSAGE value="get response" />
+    <option name="LAST_COMMIT_MESSAGE" value="get response" />
   </component>
 </project>

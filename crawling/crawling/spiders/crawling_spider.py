@@ -9,4 +9,5 @@ class CrawlingSpider(CrawlSpider):
 
     rules = (
         Rule(LinkExtractor(allow="catalogue/category")),
+        Rule(LinkExtractor(allow="catalogue", deny="category"))
     )
