@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b0c84-6cc6-4163-b4fd-eb31845c8b6b" name="Changes" comment="multiple results">
+    <list default="true" id="da3b0c84-6cc6-4163-b4fd-eb31845c8b6b" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawling/crawling/spiders/crawling_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling/crawling/spiders/crawling_spider.py" afterDir="false" />
     </list>
@@ -180,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704523132602</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="done">
+      <option name="closed" value="true" />
+      <created>1704540198202</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704540198202</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +216,7 @@
     <MESSAGE value="price" />
     <MESSAGE value="availability" />
     <MESSAGE value="multiple results" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiple results" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
