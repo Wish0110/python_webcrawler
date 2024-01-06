@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b0c84-6cc6-4163-b4fd-eb31845c8b6b" name="Changes" comment="callback func">
+    <list default="true" id="da3b0c84-6cc6-4163-b4fd-eb31845c8b6b" name="Changes" comment="response">
       <change beforePath="$PROJECT_DIR$/crawling/crawling/spiders/crawling_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling/crawling/spiders/crawling_spider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704522546291</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="response">
+      <option name="closed" value="true" />
+      <created>1704522656320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704522656320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +170,7 @@
     <MESSAGE value="get response" />
     <MESSAGE value="all catalogues deny category" />
     <MESSAGE value="callback func" />
-    <option name="LAST_COMMIT_MESSAGE" value="callback func" />
+    <MESSAGE value="response" />
+    <option name="LAST_COMMIT_MESSAGE" value="response" />
   </component>
 </project>
