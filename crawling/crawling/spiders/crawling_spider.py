@@ -19,4 +19,7 @@ class CrawlingSpider(CrawlSpider):
             "price": response.css(".price_color::text").get(),
             "availability": response.css(".availability::text")[1].get().replace("\n", "").replace(" ","")
         }
-        return json.dumps(item)
+
+        with open('crawled_data.json', 'a') as f:  # Open a file in append mode
+            json.dump(item, f)
+            f.write('\n')
